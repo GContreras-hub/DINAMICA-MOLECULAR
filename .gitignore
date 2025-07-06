@@ -1,0 +1,19 @@
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar checkpoints
+*.ipynb_checkpoints/
+
+# Ignorar archivos temporales
+.DS_Store
+Thumbs.db
+
+env/
+venv/
+
+*.npy
+*.npz
+*.avi
