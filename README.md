@@ -24,7 +24,8 @@ Este proyecto simula un sistema de partículas esféricas discos sólidos intera
 
 ## Estructura del repositorio
 
-DINAMICA-MOLECULAR/
+```plaintext
+DINAMICA-MOLECULAR-EN-DOS-DIMENSIONES-DISCOS-SOLIDOS/
 ├── src/
 │   ├── sim.py              # Clase Particula y generación del sistema
 │   ├── colisiones.py       # Lógica de colisiones entre partículas
@@ -36,13 +37,13 @@ DINAMICA-MOLECULAR/
 ├── docs/
 │   ├── metodologia.md        # Documento explicativo del problema, recursos y enfoque
 │   ├── graficos/             # Gráficos en PNG generados por la simulación
-|   |   ├── Fig1.png
-|   |   ├── Fig2.png
+│   │   ├── Fig1.png
+│   │   ├── Fig2.png
 │   │   └── Fign.png
-│   └── reporte_final.pdf     # Reporte
+│   └── Reporte_final.pdf     # Reporte del proyecto en formato PDF
 │
 ├── presentación/
-│   └── Diapositivas.pdf      # Diapositivas 
+│   └── Diapositivas.pdf      # Diapositivas utilizadas para la exposición final
 │
 ├── .gitignore
 ├── LICENSE
