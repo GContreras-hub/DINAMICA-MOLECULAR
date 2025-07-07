@@ -1,0 +1,620 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../explicacion_notebook/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Metodología - Dinámica Molecular</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#metodologia-del-proyecto" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Dinámica Molecular" class="md-header__button md-logo" aria-label="Dinámica Molecular" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dinámica Molecular
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Metodología
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Dinámica Molecular" class="md-nav__button md-logo" aria-label="Dinámica Molecular" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Dinámica Molecular
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Metodología
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodología
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#enunciado-del-problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enunciado del problema
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utilizando-las-ecuaciones-de-cinematica-elabore-un-programa-en-dos-dimensiones-con-4-discos-solidos-de-radio-r-que-se-mueven-sin-friccion-ni-momento-angular-dentro-de-una-caja-de-longitud-unitaria-a-estos-discos-se-les-puede-asociar-una-energia-cinetica-inicial-aleatoria-resultando-asi-una-distribucion-de-velocidades-aleatoria-para-el-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Utilizando las ecuaciones de cinematica, elabore un programa en dos dimensiones con 4 discos solidos de radio r que se mueven sin friccion ni momento angular dentro de una caja de longitud unitaria. A estos discos se les puede asociar una energía cinetica inicial aleatoria, resultando así una distribucion de velocidades aleatoria para el sistema.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#herramientas-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Herramientas utilizadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementación
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decisiones-tecnicas-y-optimizaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decisiones técnicas y optimizaciones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia-de-trabajo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodología de trabajo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados-esperados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultados esperados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivos-generados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Archivos generados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusión
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../explicacion_notebook/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Explicación del notebook
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#enunciado-del-problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enunciado del problema
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utilizando-las-ecuaciones-de-cinematica-elabore-un-programa-en-dos-dimensiones-con-4-discos-solidos-de-radio-r-que-se-mueven-sin-friccion-ni-momento-angular-dentro-de-una-caja-de-longitud-unitaria-a-estos-discos-se-les-puede-asociar-una-energia-cinetica-inicial-aleatoria-resultando-asi-una-distribucion-de-velocidades-aleatoria-para-el-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Utilizando las ecuaciones de cinematica, elabore un programa en dos dimensiones con 4 discos solidos de radio r que se mueven sin friccion ni momento angular dentro de una caja de longitud unitaria. A estos discos se les puede asociar una energía cinetica inicial aleatoria, resultando así una distribucion de velocidades aleatoria para el sistema.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#herramientas-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Herramientas utilizadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementación
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decisiones-tecnicas-y-optimizaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decisiones técnicas y optimizaciones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia-de-trabajo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodología de trabajo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados-esperados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultados esperados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivos-generados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Archivos generados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusión
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="metodologia-del-proyecto">Metodología del Proyecto</h1>
+<h2 id="enunciado-del-problema">Enunciado del problema</h2>
+<h2 id="utilizando-las-ecuaciones-de-cinematica-elabore-un-programa-en-dos-dimensiones-con-4-discos-solidos-de-radio-r-que-se-mueven-sin-friccion-ni-momento-angular-dentro-de-una-caja-de-longitud-unitaria-a-estos-discos-se-les-puede-asociar-una-energia-cinetica-inicial-aleatoria-resultando-asi-una-distribucion-de-velocidades-aleatoria-para-el-sistema">Utilizando las ecuaciones de cinematica, elabore un programa en dos dimensiones con 4 discos solidos de radio r que se mueven sin friccion ni momento angular dentro de una caja de longitud unitaria. A estos discos se les puede asociar una energía cinetica inicial aleatoria, resultando así una distribucion de velocidades aleatoria para el sistema.</h2>
+<h2 id="herramientas-utilizadas">Herramientas utilizadas</h2>
+<ul>
+<li><strong>Lenguaje principal</strong>: Python 3</li>
+<li><strong>Entorno de ejecución</strong>: Jupyter Notebook</li>
+<li><strong>Librerías</strong>: </li>
+<li>NumPy: para operaciones vectoriales y generación aleatoria</li>
+<li>Matplotlib: para visualización de resultados</li>
+<li><strong>Organización modular del código</strong>: </li>
+<li><code>src/sim.py</code>: clase <code>Particula</code> y generación de condiciones iniciales</li>
+<li><code>src/colisiones.py</code>: gestión de colisiones entre partículas</li>
+<li><code>src/simulador.py</code>: ciclo de simulación y recolección de datos</li>
+<li><strong>Control de versiones</strong>: Git y GitHub</li>
+</ul>
+<hr />
+<h2 id="implementacion">Implementación</h2>
+<ol>
+<li>Se definió una clase <code>Particula</code> con atributos como posición, velocidad, masa y radio.</li>
+<li>Se inicializaron múltiples partículas en posiciones aleatorias sin superposición, respetando el tamaño del recipiente.</li>
+<li>Se simularon colisiones entre partículas con conservación del momento y energía.</li>
+<li>Se implementó rebote con pérdida parcial de velocidad contra las paredes (coeficiente de restitución &lt; 1).</li>
+<li>Se recolectaron todas las posiciones en un arreglo durante la simulación.</li>
+<li>Se generaron histogramas tridimensionales (<code>np.histogramdd</code>) y visualizaciones por cortes planos (XY, XZ, YZ).</li>
+</ol>
+<hr />
+<h2 id="decisiones-tecnicas-y-optimizaciones">Decisiones técnicas y optimizaciones</h2>
+<ul>
+<li>Se usó programación orientada a objetos para encapsular la lógica de cada partícula.</li>
+<li>Se aplicó una verificación de solapamiento durante la creación inicial para evitar interpenetraciones.</li>
+<li>Se modularizó el código para permitir la reutilización de funciones y facilitar pruebas.</li>
+<li>El sistema puede escalar a más partículas con cambios mínimos en los parámetros.</li>
+</ul>
+<hr />
+<h2 id="metodologia-de-trabajo">Metodología de trabajo</h2>
+<ul>
+<li>El proyecto fue desarrollado en etapas:</li>
+<li>Pruebas iniciales de partículas individuales.</li>
+<li>Implementación de colisiones entre pares.</li>
+<li>Recolección de datos y visualización.</li>
+<li>Modularización del código.</li>
+<li>Documentación y presentación final.</li>
+<li>Se usó Git para el control de versiones y GitHub para alojamiento y colaboración.</li>
+</ul>
+<hr />
+<h2 id="resultados-esperados">Resultados esperados</h2>
+<ul>
+<li>Distribuciones de partículas que reflejan el comportamiento dinámico del sistema.</li>
+<li>Visualización de zonas de mayor densidad por medio de histogramas.</li>
+<li>Posibilidad de ajustar parámetros (N, masa, velocidad) para estudiar distintas condiciones físicas.</li>
+</ul>
+<hr />
+<h2 id="archivos-generados">Archivos generados</h2>
+<ul>
+<li>Notebook interactivo: <code>notebook/proyecto_final.ipynb</code></li>
+<li>Gráficos en <code>docs/graficos/</code></li>
+<li>Diapositivas para presentación en <code>presentación/</code></li>
+<li>Reporte PDF final con documentación y visualización</li>
+</ul>
+<hr />
+<h2 id="conclusion">Conclusión</h2>
+<p>El proyecto permitió aplicar múltiples técnicas vistas en el curso de Fisica Computacional: FS-0432, incluyendo simulación física, análisis numérico, organización modular del código, uso eficiente de memoria y control de versiones. Además, ofreció una experiencia práctica en el diseño, ejecución y presentación de una investigación computacional.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
