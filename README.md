@@ -1,4 +1,4 @@
-# Dinámica Molecular en Dos Dimensiones Y Tres  - Discos Sólidos
+# Dinámica Molecular en Dos Y Tres Dimensiones - Discos Sólidos
 
 Proyecto de investigación para el proyecto final del curso **FS-0432: Física Computacional**.
 
