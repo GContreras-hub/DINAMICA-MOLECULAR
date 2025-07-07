@@ -1,0 +1,8 @@
+site_name: Dinámica Molecular
+theme:
+  name: material
+
+nav:
+  - Inicio: index.md
+  - Metodología: metodologia.md
+  - Explicación del notebook: explicacion_notebook.md
