@@ -25,9 +25,8 @@ Utilizando las ecuaciones de cinematica, elabore un programa en dos dimensiones 
 1. Se definió una clase `Particula` con atributos como posición, velocidad, masa y radio.
 2. Se inicializaron múltiples partículas en posiciones aleatorias sin superposición, respetando el tamaño del recipiente.
 3. Se simularon colisiones entre partículas con conservación del momento y energía.
-4. Se implementó rebote con pérdida parcial de velocidad contra las paredes (coeficiente de restitución < 1).
-5. Se recolectaron todas las posiciones en un arreglo durante la simulación.
-6. Se generaron histogramas tridimensionales (`np.histogramdd`) y visualizaciones por cortes planos (XY, XZ, YZ).
+4. Se recolectaron todas las posiciones en un arreglo durante la simulación.
+5. Se generaron histogramas tridimensionales (`np.histogramdd`) y visualizaciones por cortes planos (XY, XZ, YZ).
 
 ---
 
