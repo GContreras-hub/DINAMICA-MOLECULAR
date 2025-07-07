@@ -27,26 +27,30 @@ Este proyecto simula un sistema de partículas esféricas discos sólidos intera
 ```plaintext
 DINAMICA-MOLECULAR/
 ├── src/
-│   ├── sim.py              # Clase Particula y generación del sistema
-│   ├── colisiones.py       # Lógica de colisiones entre partículas
-│   └── simulador.py        # Bucle principal de simulación
+│ ├── sim.py # Clase Partícula y generación del sistema
+│ ├── colisiones.py # Lógica de colisiones entre partículas
+│ └── simulador.py # Bucle principal de simulación
 │
 ├── notebook/
-│   └── proyecto_final.ipynb  # Notebook principal con ejecución y visualización
+│ └── proyecto_final.ipynb # Notebook principal con ejecución y visualización
 │
 ├── docs/
-│   ├── metodologia.md        # Documento explicativo del problema, recursos y enfoque
-│   ├──tutorial.md            # Explicación rapida para ejecutar el notebook
-│   ├── graficos/             # Gráficos en PNG generados por la simulación
-│   │   ├── Fig1.png
-│   │   ├── Fig2.png
-│   │   └── Fign.png
-│   └── Reporte_final.pdf     # Reporte del proyecto en formato PDF
+│ ├── metodologia.md # Documento explicativo del problema, recursos y enfoque
+│ ├── explicacion_notebook.md # Explicación rápida para ejecutar el notebook
+│ ├── graficos/ # Gráficos en PNG generados por la simulación
+│ | ├── parametros.md # Parámetros y condiciones iniciales del sistema usado en las figuras
+│ │ ├── Fig1.jpg
+│ │ ├── Fig2.jpg
+│ │ └── Fig3.jpg
+│ └── Reporte_final.pdf # Reporte del proyecto en formato PDF
+│
+├── docs_web/ # Página HTML con documentación interactiva
+│ └── index.html
 │
 ├── presentación/
-│   └── Diapositivas.pdf      # Diapositivas utilizadas para la exposición final
+│ └── Diapositivas.pdf # Diapositivas utilizadas para la exposición final
 │
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-└── README.md
+├── requirements.txt # Dependencias del proyecto
+├── .gitignore # Exclusión de archivos temporales o locales
+├── LICENSE # Licencia MIT
+└── README.md # Documentación principal del repositorio
