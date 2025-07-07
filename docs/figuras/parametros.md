@@ -1,4 +1,16 @@
 # Parámetros utilizados para las Figuras
+## Variables
+- **L: Lado del cubo** 
+- **dt: Cambio del tiempo** 
+- **N: Número de partículas**  
+- **t: Tiempos de simulación** 
+- **m_min: Masa minima** 
+- **m_max: Masa maxima** 
+- **r_min: Radio minimo** 
+- **r_max: Radio maximo** 
+- **v_min: Velocidad minima** 
+- **v_max: Velocidad maxima** 
+
 ## Para las figuras 1, 2, 3
 
 - **L** = 250  
