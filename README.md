@@ -36,6 +36,7 @@ DINAMICA-MOLECULAR/
 │
 ├── docs/
 │   ├── metodologia.md        # Documento explicativo del problema, recursos y enfoque
+│   ├──tutorial.md            # Explicación rapida para ejecutar el notebook
 │   ├── graficos/             # Gráficos en PNG generados por la simulación
 │   │   ├── Fig1.png
 │   │   ├── Fig2.png
