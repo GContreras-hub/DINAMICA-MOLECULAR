@@ -46,6 +46,7 @@ DINAMICA-MOLECULAR/
 ├── presentación/
 │   └── Diapositivas.pdf      # Diapositivas utilizadas para la exposición final
 │
+├── requirements.txt
 ├── .gitignore
 ├── LICENSE
 └── README.md
