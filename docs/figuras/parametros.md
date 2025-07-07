@@ -1,9 +1,23 @@
 # Parámetros utilizados para las Figuras
+## Para las figuras 1, 2, 3
 
 - **L** = 250  
 - **dt** = 1  
 - **N** = 200  
 - **t** = 10000  
+
+## Para las Figuras 4, 5, 6
+
+- **L** = 1 
+- **dt** = 0.01
+- **N** = 4 
+- **t** = 10
+- **m_min** = 25
+- **m_max** = 50
+- **r_min** = 0.01
+- **r_max** = 0.2
+- **v_min** = 1
+- **v_max** = 0.01
 
 ### Códigos de generación:
 
